@@ -1,0 +1,24 @@
+.product-container {
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 5px;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.add-cart-button {
+    background-color: #FFE0B3;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+}
+
+.add-cart-button:hover {
+    background-color: orange;
+}
