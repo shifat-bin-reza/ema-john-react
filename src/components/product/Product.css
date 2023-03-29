@@ -1,6 +1,7 @@
 .product-container {
     border: 1px solid rgb(211, 206, 206);
     border-radius: 5px;
+    position: relative;
 }
 
 .product-info {
@@ -17,6 +18,8 @@
     width: 100%;
     border-left: 0;
     border-right: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .add-cart-button:hover {
