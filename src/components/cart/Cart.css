@@ -8,3 +8,24 @@
 .title-order-summery {
   text-align: center;
 }
+
+.btn-clear {
+  background-color: #ff3030;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn-review {
+  background-color: #ff9900;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}

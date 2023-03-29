@@ -1,9 +1,10 @@
 import React from "react";
 import "./Cart.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = ({ cart }) => {
-  console.log(cart);
-
   let total = 0;
   let shipping = 0;
   for (const product of cart) {
@@ -21,6 +22,14 @@ const Cart = ({ cart }) => {
       <p>Total Shipping Charge: ${shipping} </p>
       <p>Tax: ${tax} </p>
       <h4>Grand Total: ${grandTotal}</h4>
+      <button className="btn-clear">
+        <span>Clear Cart</span>
+        <FontAwesomeIcon style={{ marginLeft: "5px" }} icon={faTrash} />
+      </button>
+      <button className="btn-review">
+        <span>Review Order</span>
+        <FontAwesomeIcon style={{ marginLeft: "5px" }} icon={faArrowRight} />
+      </button>
     </div>
   );
 };
